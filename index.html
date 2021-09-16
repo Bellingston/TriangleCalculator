@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>CalculatorTriangle</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" type="text/javascript" language="javascript"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="formInputs">
+            <input type="text" class="formInputs__katet1" id="dataA" maxlength="10" placeholder="Введите Катет">
+            <input type="text" class="formInputs__gipotenusa" id="dataC" maxlength="10" placeholder="Введите Гипотенузу">
+        </div>
+        <div class="buttons">
+            <button class="buttons__resultKatet2Btn" type="submit" onclick="findKatet()">
+                Найти второй катет
+            </button>
+            <button class="buttons__resultRadiusBtn" type="submit" onclick="findRadius()">
+                Найти радиус вписанной окр-ти
+            </button>
+
+        </div>
+        <div class="formOutputs">
+            <input type="text" id="res" readonly placeholder="Результат" value="">
+        </div>
+    </div>
+    <div id="footer">
+        Developer - Gregory Lunev
+    </div>
+
+</body>
+</html>
